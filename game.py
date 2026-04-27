@@ -5,8 +5,8 @@ import keyboard
 
 
 def randdim():              # for giving random value of height and width
-    x = int(np.random.randint(5, 10, 1))
-    y = int(np.random.randint(25, 50, 1))
+    x = int(np.random.randint(5, 10))
+    y = int(np.random.randint(25, 50))
     return x, y
 
 
